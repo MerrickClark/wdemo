@@ -1,0 +1,77 @@
+.App {
+
+}
+
+.App-header {
+  background-color: #82a1b830;
+  padding: 15px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.SearchBar input {
+  width: 250px;
+  font-size: 13px;
+  padding: 5px;
+  border-radius: 3px;
+  border-width: 1px;
+}
+
+table {
+  width: 100%;
+  color: #294f6dbd;
+}
+
+table, th, td {
+  text-align: left;
+  border-collapse: collapse;
+  border: 1px solid #a1b9d236;
+}
+
+thead tr, th {
+  height: 30px;
+  font-size: 12px;
+  padding-left: 15px;
+  font-weight: normal;
+}
+
+tr {
+  height: 40px;
+  font-size: 12px;
+}
+
+td {
+  padding-left: 15px;
+}
+
+th:first-of-type,
+td:first-of-type {
+  width: 35%;
+  border-right: none;
+}
+
+th:nth-of-type(2),
+td:nth-of-type(2) {
+  border-left: none;
+  text-align: right;
+  padding-right: 10px;
+}
+
+td:nth-of-type(2) span:first-of-type {
+  padding: 4px 8px;
+  background-color: #82a1b878;
+  border-radius: 10px;
+}
+
+td:nth-of-type(2) span:nth-of-type(2) {
+  margin-left: 10px;
+  padding: 4px 8px;
+  background-color: #dccb6f57;
+  border-radius: 10px;
+}
